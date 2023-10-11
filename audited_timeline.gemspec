@@ -20,7 +20,7 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler"
 
-  spec.add_runtime_dependency 'audited', '~> 4.3'
-  spec.add_runtime_dependency 'rails', '>= 4.0.0'
-  spec.add_runtime_dependency 'draper', '>= 2.1.0'
+  spec.add_runtime_dependency 'audited', '~> 5.4'
+  spec.add_runtime_dependency 'rails', '~> 7.0'
+  spec.add_runtime_dependency 'draper', '~> 4.0'
 end
