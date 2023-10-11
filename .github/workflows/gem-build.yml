@@ -14,5 +14,5 @@ jobs:
         fetch-depth: 0
     - uses: ruby/setup-ruby@v1
       with:
-        ruby-version: 3.0
+        ruby-version: 3.2
     - run: gem build *.gemspec
